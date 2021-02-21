@@ -76,27 +76,28 @@ function potatoFinder() {
 
 
 // program 3
-
+var div3 = document.getElementById("divProgram3");
+var pTag3 = document.createElement("p");
+div3.appendChild(pTag3);
 function stringRepeater() {
     var stringInput = document.getElementById("string2").value;
+    if (stringInput != 0) {
     
-for (let i = 1; i < stringInput.length; i++) {
- 
-    stringInput = stringInput[i] 
+    strRepeat = stringInput.repeat("2");
+    pTag3.style.color = "green"
+    pTag3.innerHTML = `${strRepeat}`;
+        
+    }
+    else
+    {
+        pTag3.style.color = "red"
+        pTag3.innerHTML = `Invalid Input`;  
+    }
    
-}
-    // strRepeat = stringInput.repeat("2");
-    console.log();
+//console.log(strRepeat);
 
 }
 
-//for (let i = 0; i < stringInput.length; i++) {
-
-//     stringInput[i] = stringInput[i].repeat("2");
-//     var str = stringInput[i]
-//     console.log(str);
-
-// }
 
 
 
