@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Logical programs</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4" id="divProgram1">
+
+
+                    <!-- <form action="">  -->
+                    <legend> Program 1</legend>
+                    <label for="">Enter your 16-digit Credit card Number :</label>
+                    <input type="tel" name="number" id="number" required maxlength="16">
+
+                    <input type="submit" placeholder="Submit" class="submit" onclick="numberHider()">
+
+                    <!-- </form>  -->
+
+                </div>
+                <div class="col-lg-4" id="divProgram2">
+                    <legend> Program 2</legend>
+                    <label for="">Enter a string:</label> <br>
+                    <input type="text" name="string" id="string" required maxlength="">
+
+                    <input type="submit" placeholder="Submit" class="submit" onclick="potatoFinder()">
+                </div>
+                <div class="col-lg-4" id="divProgram3">
+                    <legend> Program 3</legend>
+                    <label for="">String Repeater:</label> <br>
+                    <input type="text" name="string2" id="string2" required maxlength="" placeholder="Enter a string">
+
+                    <input type="submit" placeholder="Submit" class="submit" onclick="stringRepeater()">
+
+                </div>
+            </div>
+
+            <!-- row 2-->
+            <div class="row">
+                <div class="col-lg-4" id="divProgram4">
+                    <legend> Program 4</legend>
+                    <label for="">Gross Salary Calculator:</label> <br>
+                    <input type="tel" name="salary" id="salary" required maxlength="" placeholder="Enter your Basic Salary">
+
+                    <input type="submit" placeholder="Submit" class="submit" onclick="salaryCalculator()">
+
+                </div>
+                <div class="col-lg-4" id="divProgram5">
+
+                    <legend> Program 5</legend>
+                    <label for="">Bill Calculator:</label> <br>
+                    <input type="tel" name="bill" id="bill" required maxlength="" placeholder="Enter Electricity Units ">
+
+                    <input type="submit" placeholder="Submit" class="submit" onclick="billCalculator()">
+                </div>
+                <div class="col-lg-4" id="divProgram6">
+
+                    <legend> Program 6</legend>
+                    <label for="">Sum of Multiples of 3 & 5 below 1000:</label> <br>
+                    <!-- <input type="tel" name="sum" id="sum" required maxlength="" placeholder=""> -->
+
+                     <input type="submit" placeholder="Calculate" class="submit" onclick="sumCalculator()"> 
+                </div>
+            </div>
+            <!-- row 3-->
+<div class="row">
+    <div class="col-lg-4" id="divProgram7">
+        <legend> Program 7 (Q:8)</legend>
+                    <label for="">String 1 (Only One Alphabet):</label> <br>
+                     <input type="text" name="string1" id="string1" required maxlength="1" placeholder="Enter your Character"> <br>
+                     <label for="">String 2:</label> <br>
+                     <input type="text" name="str2" id="str2" required maxlength="" placeholder="Enter string"> 
+
+                     <input type="submit" placeholder="submit" class="submit" onclick="alphabetCalculator()"> 
+    </div>
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4"></div>
+</div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
